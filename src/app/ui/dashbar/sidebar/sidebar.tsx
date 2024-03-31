@@ -4,9 +4,8 @@ import React from 'react';
 
 const SideBar=()=>{
     return(
-        <div>
-          
-          <div className="user-sidebar sidebar_open">
+        <div className=''>
+          <div className="user-sidebar">
             <div className="pro-header text-end pb-0 mb-0 show-1023">
                <div className="fix-icon"><span className="flaticon-close"></span></div>
             </div>
