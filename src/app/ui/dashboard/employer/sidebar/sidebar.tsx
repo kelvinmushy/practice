@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -11,18 +12,75 @@ const SideBar=()=>{
             </div>
             <div className="sidebar-inner">
                <ul className="navigation">
-                  <li className="active mb-1"><a href="/employers-dashboard/dashboard"><i className="la la-home"></i> Dashboard</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/company-profile"><i className="la la-user-tie"></i> Company Profile</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/post-jobs"><i className="la la-paper-plane"></i> Post a New Job</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/manage-jobs"><i className="la la-briefcase"></i> Manage Jobs</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/all-applicants"><i className="la la-file-invoice"></i> All Applicants</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/shortlisted-resumes"><i className="la la-bookmark-o"></i> Shortlisted Resumes</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/packages"><i className="la la-box"></i> Packages</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/messages"><i className="la la-comment-o"></i> Messages</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/resume-alerts"><i className="la la-bell"></i> Resume Alerts</a></li>
-                  <li className=" mb-1"><a href="/employers-dashboard/change-password"><i className="la la-lock"></i> Change Password</a></li>
-                  <li className=" mb-1"><a href="/login"><i className="la la-sign-out"></i> Logout</a></li>
-                  <li className=" mb-1"><a href="/"><i className="la la-trash"></i> Delete Profile</a></li>
+               {/* <Link href="/about"></Link> */}
+                   <li className='className="active mb-1"'>
+                  <Link href="/dashboard/employer">
+                  <i className="la la-home"></i>
+                   Dashboard
+                  {/* <a href="/employers-dashboard/dashboard">
+                        <i className="la la-home"></i>
+                   Dashboard</a> */}
+                  </Link>
+                  </li>
+
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/profile">
+                        <i className="la la-user-tie"></i> Company Profile
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/job/create">
+                        <i className="la la-paper-plane"></i> Post a New Job
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/job/all">
+                        <i className="la la-briefcase"></i>  Manage Jobs
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/applicant/all">
+                        <i className="la la-briefcase"></i>  All Applicant
+                        </Link>
+                  
+                  </li>
+
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/applicant/shortlisted">
+                        <i className="la la-briefcase"></i>  Shortlisted
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/applicant/resume">
+                        <i className="la la-briefcase"></i>  Resume Alert
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/package">
+                        <i className="la la-briefcase"></i>  Packages
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/message">
+                        <i className="la la-comment-o"></i>  Message
+                        </Link>
+                  
+                  </li>
+                  <li className=" mb-1">
+                         <Link href="/dashboard/employer/password">
+                        <i className="la la-comment-o"></i>  Change Password
+                        </Link>
+                  
+                  </li>
+        
+                  <li className=" mb-1"><a href="/"><i className="la la-sign-out"></i> Logout</a></li>
+                  {/* <li className=" mb-1"><a href="/"><i className="la la-trash"></i> Delete Profile</a></li> */}
                </ul>
             </div>
          </div>
