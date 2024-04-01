@@ -1,9 +1,9 @@
 
 import React from 'react';
-import SideBar from '../ui/dashbar/sidebar/sidebar';
-import NavBar from '../ui/dashbar/navbar/navbar';
-import '../../../public/css/custom.css';
-import styles from '../ui/dashbar/dashboard.module.css'
+import SideBar from '../../ui/dashboard/employer/sidebar/sidebar';
+import NavBar from '../../ui/dashboard/employer/navbar/navbar';
+import '../../../../public/css/custom.css';
+import styles from '../../ui/dashboard/employer/dashboard.module.css'
 
 
 

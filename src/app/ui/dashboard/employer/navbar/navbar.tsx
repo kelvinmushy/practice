@@ -6,7 +6,7 @@ import React from 'react';
 const NavBar=()=>{
     return (
         <>
-         <div className='px-2 h-24 shadow-md w-full '>
+         <div className='px-2 h-24 shadow-md w-full  '>
                   <div className="nav-outer">
                      <div className="logo-box">
                         <div className="logo">

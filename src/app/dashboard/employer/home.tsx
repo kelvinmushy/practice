@@ -160,7 +160,8 @@ const Home=()=>{
                                           <li><span className="icon flaticon-map-locator"></span> London, UK</li>
                                           <li><span className="icon flaticon-money"></span> $88 / hour</li>
                                        </ul>
-                                       <ul className="post-tags flex">
+
+                                       <ul className="flex  flex-row gap-3">
                                           <li><a href="#">App</a></li>
                                           <li><a href="#">Design</a></li>
                                           <li><a href="#">Digital</a></li>
