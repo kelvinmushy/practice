@@ -1,0 +1,184 @@
+
+<header className="flex flex-row bg-white w-full">
+
+<div className="nav-outer">
+   {/* <div className="logo-box">
+      <div className="logo"><a href="/"><img alt="brand" loading="lazy" width="154" height="50" decoding="async" data-nimg="1" style="color:transparent" src="/images/logo.svg"></a></div>
+   </div> */}
+   <nav className="nav main-menu">
+      <ul className="navigation" id="navbar">
+         <li className="current dropdown">
+            <span>Home</span>
+            <div className="mega-menu">
+               <div className="mega-menu-bar row pt-0">
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <ul>
+                        <li className="current"><a href="/">Home Page 01</a></li>
+                        <li className=""><a href="/home-2">Home Page 02</a></li>
+                        <li className=""><a href="/home-3">Home Page 03</a></li>
+                        <li className=""><a href="/home-4">Home Page 04</a></li>
+                        <li className=""><a href="/home-5">Home Page 05</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <ul>
+                        <li className=""><a href="/home-6">Home Page 06</a></li>
+                        <li className=""><a href="/home-7">Home Page 07</a></li>
+                        <li className=""><a href="/home-8">Home Page 08</a></li>
+                        <li className=""><a href="/home-9">Home Page 09</a></li>
+                        <li className=""><a href="/home-10">Home Page 10</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <ul>
+                        <li className=""><a href="/home-11">Home Page 11</a></li>
+                        <li className=""><a href="/home-12">Home Page 12</a></li>
+                        <li className=""><a href="/home-13">Home Page 13</a></li>
+                        <li className=""><a href="/home-14">Home Page 14</a></li>
+                        <li className=""><a href="/home-15">Home Page 15</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <ul>
+                        <li className=""><a href="/home-16">Home Page 16</a></li>
+                        <li className=""><a href="/home-17">Home Page 17</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </li>
+         <li className=" dropdown has-mega-menu" id="has-mega-menu">
+            <span>Find Jobs</span>
+            <div className="mega-menu">
+               <div className="mega-menu-bar row">
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <h3>Jobs Listing</h3>
+                     <ul>
+                        <li className=""><a href="/job-list-v1">Job List V1</a></li>
+                        <li className=""><a href="/job-list-v2">Job List V2</a></li>
+                        <li className=""><a href="/job-list-v3">Job List V3</a></li>
+                        <li className=""><a href="/job-list-v4">Job List V4</a></li>
+                        <li className=""><a href="/job-list-v5">Job List V5</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <h3>Jobs Listing</h3>
+                     <ul>
+                        <li className=""><a href="/job-list-v6">Job List V6</a></li>
+                        <li className=""><a href="/job-list-v7">Job List V7</a></li>
+                        <li className=""><a href="/job-list-v8">Job List V8</a></li>
+                        <li className=""><a href="/job-list-v9">Job List V9</a></li>
+                        <li className=""><a href="/job-list-v10">Job List V10</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <h3>Jobs Listing</h3>
+                     <ul>
+                        <li className=""><a href="/job-list-v11">Job List V11</a></li>
+                        <li className=""><a href="/job-list-v12">Job List V12</a></li>
+                        <li className=""><a href="/job-list-v13">Job List V13</a></li>
+                        <li className=""><a href="/job-list-v14">Job List V14</a></li>
+                     </ul>
+                  </div>
+                  <div className="column col-lg-3 col-md-3 col-sm-12">
+                     <h3>Jobs Single</h3>
+                     <ul>
+                        <li className=""><a href="/job-single-v1/1">Job Single V1</a></li>
+                        <li className=""><a href="/job-single-v2/2">Job Single V2</a></li>
+                        <li className=""><a href="/job-single-v3/3">Job Single V3</a></li>
+                        <li className=""><a href="/job-single-v4/4">Job Single V4</a></li>
+                        <li className=""><a href="/job-single-v5/5">Job Single V5</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </li>
+         <li className=" dropdown">
+            <span>Employers</span>
+            <ul>
+               <li className="dropdown">
+                  <span className="">Employers List</span>
+                  <ul>
+                     <li className=""><a href="/employers-list-v1">Employers List V1</a></li>
+                     <li className=""><a href="/employers-list-v2">Employers List V2</a></li>
+                     <li className=""><a href="/employers-list-v3">Employers List V3</a></li>
+                     <li className=""><a href="/employers-list-v4">Employers List V4</a></li>
+                  </ul>
+               </li>
+               <li className="dropdown">
+                  <span className="">Employers Single</span>
+                  <ul>
+                     <li className=""><a href="/employers-single-v1/1">Employers Single V1</a></li>
+                     <li className=""><a href="/employers-single-v2/2">Employers Single V2</a></li>
+                     <li className=""><a href="/employers-single-v3/3">Employers Single V3</a></li>
+                  </ul>
+               </li>
+               <li className=""><a href="/employers-dashboard/dashboard">Employers Dashboard</a></li>
+            </ul>
+         </li>
+         <li className=" dropdown">
+            <span>Candidates</span>
+            <ul>
+               <li className="dropdown">
+                  <span className="">Candidates List</span>
+                  <ul>
+                     <li className=""><a href="/candidates-list-v1">Candidates List V1</a></li>
+                     <li className=""><a href="/candidates-list-v2">Candidates List V2</a></li>
+                     <li className=""><a href="/candidates-list-v3">Candidates List V3</a></li>
+                     <li className=""><a href="/candidates-list-v4">Candidates List V4</a></li>
+                     <li className=""><a href="/candidates-list-v5">Candidates List V5</a></li>
+                  </ul>
+               </li>
+               <li className="dropdown">
+                  <span className="">Candidates Single</span>
+                  <ul>
+                     <li className=""><a href="/candidates-single-v1/1">Candidates Single V1</a></li>
+                     <li className=""><a href="/candidates-single-v2/2">Candidates Single V2</a></li>
+                     <li className=""><a href="/candidates-single-v3/3">Candidates Single V3</a></li>
+                  </ul>
+               </li>
+               <li className=""><a href="/candidates-dashboard/dashboard">Candidates Dashboard</a></li>
+            </ul>
+         </li>
+         <li className=" dropdown">
+            <span>Blog</span>
+            <ul>
+               <li className=""><a href="/blog-list-v1">Blog List V1</a></li>
+               <li className=""><a href="/blog-list-v2">Blog List V2</a></li>
+               <li className=""><a href="/blog-list-v3">Blog List V3</a></li>
+               <li className=""><a href="/blog-details/1">Blog Details</a></li>
+            </ul>
+         </li>
+         <li className=" dropdown">
+            <span>Pages</span>
+            <ul>
+               <li className="dropdown">
+                  <span className="">Shop</span>
+                  <ul>
+                     <li className=""><a href="/shop/shop-list">Shop List</a></li>
+                     <li className=""><a href="/shop/shop-single/1">Shop Single</a></li>
+                     <li className=""><a href="/shop/cart">Cart</a></li>
+                     <li className=""><a href="/shop/checkout">Checkout</a></li>
+                     <li className=""><a href="/shop/order-completed">Order Completed</a></li>
+                     <li className=""><a href="/login">Login</a></li>
+                     <li className=""><a href="/register">Register</a></li>
+                  </ul>
+               </li>
+               <li className=""><a href="/about">About</a></li>
+               <li className=""><a href="/pricing">Pricing</a></li>
+               <li className=""><a href="/faq">FAQ's</a></li>
+               <li className=""><a href="/terms">Terms</a></li>
+               <li className=""><a href="/invoice">Invoice</a></li>
+               <li className=""><a href="/contact">Contact</a></li>
+               <li className=""><a href="/404">404</a></li>
+            </ul>
+         </li>
+      </ul>
+   </nav>
+</div>
+<div className="outer-box">
+   <a className="upload-cv" href="/candidates-dashboard/cv-manager">Upload your CV</a>
+   <div className="btn-box"><a href="#" className="theme-btn btn-style-three call-modal" data-bs-toggle="modal" data-bs-target="#loginPopupModal">Login / Register</a><a className="theme-btn btn-style-one" href="/employers-dashboard/post-jobs">Job Post</a></div>
+</div>
+
+</header>

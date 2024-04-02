@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/employer/layout.js", "src/app/ui/home/content/page.tsx", "src/app/layout.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/employer/layout.js", "src/app/ui/home/content/page.tsx", "src/app/layout.tsx", "src/app/pagBackup"],
   "exclude": ["node_modules"]
 }

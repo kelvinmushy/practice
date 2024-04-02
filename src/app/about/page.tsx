@@ -1,28 +1,9 @@
-
-'use client'
 import React from "react";
-import Link from "next/link";
-import logo from '../../public/logo/hamia_logo.png'
-import { useState } from "react";
-import '../../public/css/custom.css'
-import { AiOutlineMenu ,AiOutlineClose, AiOutlineAccountBook} from "react-icons/ai";
-import Image from "next/image";
-import Category from "./ui/homescreen/category/page";
 
-
-
-const Home = () => {
-
-  const [menuOpen,setMenu]=useState(false)
-
-   const handleMenu=()=>{
-
-    setMenu(!menuOpen);
-
-}
-    return (
-      <>
-      <Category/>
+const About = () => {
+  return <div>
+    
+   
     <section className="job-section">
    <div className="auto-container">
       <div className="sec-title text-center">
@@ -88,8 +69,11 @@ const Home = () => {
       <div className="btn-box"><a className="theme-btn btn-style-one bg-blue" href="/job-list-v1"><span className="btn-title">Load More Listing</span></a></div>
    </div>
 </section>
-      </>
-    );
-  };
-  
-  export default Home;
+
+
+
+
+  </div>;
+};
+
+export default About;

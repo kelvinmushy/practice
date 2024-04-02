@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Nav from "./ui/homescreen/[nav]/page";
-import Footer from "./ui/homescreen/[footer]/page";
+import Navbar from "./ui/homescreen/nav/page";
+import Footer from "./ui/homescreen/footer/page";
+import '../../public/css/custom.css';
+// import Nav from "./ui/homescreen/[nav]/page";
+// import Footer from "./ui/homescreen/[footer]/page";
 
 
 
@@ -24,17 +27,15 @@ export default function RootLayout({
         
       <body className="bg-white">
         
-        <div className="w-max bg-white">
-        <header>
-          <Nav/>
-         </header>
+      
+        
+        <Navbar/>
 
         {children}
-        
-        <footer>
-         <Footer/>
-        </footer>
-        </div>
+         
+        <Footer/>
+      
+     
        
 
      
